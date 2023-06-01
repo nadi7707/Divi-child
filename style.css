@@ -11,15 +11,27 @@ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, access
 Text Domain:  Divichild
 */
 
+
 body { background-color: rgb(33, 33, 06);
 
 }
+#et_pb_signup_email.input {
+    border-radius: 0px !important;
+}
+
 /*<link rel="stylesheet" href="https://use.typekit.net/qgk0rsz.css"> This is added in a html widget in wordpress*/
 H1, H2, H3 {
 font-family: "canada-type-gibson", sans-serif;
 font-weight: 500;
 font-style: normal; 
-} /*{
+} 
+
+h1 {
+    font-size: 2em;
+}
+
+
+/*{
 font-family: "canada-type-gibson", sans-serif;
 font-weight: 600;
 font-style: normal;
@@ -30,6 +42,7 @@ Body {
     font-weight: 300;
     font-style: normal;
 }
+
 
 .tinvwl_add_to_wishlist_button.tinvwl-icon-heart.tinvwl-position-above_thumb.tinvwl-loop
  {
@@ -68,3 +81,49 @@ Body {
 .product .woocommerce-product-gallery .yith-wcwl-add-to-wishlist .view-wishlist {
     display: none;
 }
+
+/*.et-pb-arrow-next href=*/
+
+
+#et-main-area .et-fb-root-ancestor.et-fb-iframe-ancestor {
+    background-color:  #595739 !important; } 
+    
+/*et_builder_inner_content .et_pb_gutters1.product*/
+
+/*.clearfix .woocommerce-notices-wrapper*/
+.et_builder_inner_content.et_pb_gutters1.product {
+    background: #595739 !important;
+}
+
+.et_pb_section_0_tb_footer.et_pb_section {
+    background-color:  rgb(33, 33, 06);
+}
+
+#et-main-area.et-fb-root-ancestor.et-fb-iframe-ancestor {
+    background-color: #595739; }
+
+/*#size .attribute_size*/
+.orderby,
+.woocommerce div.product form.cart .variations td select {
+    border-radius: 0px;
+    font-size: 12px;
+}
+.single_add_to_cart_button .button alt wp element-button {
+    font-size: 12px;
+}
+
+body {
+        
+    cursor: url(http://ndesigns.dk/finalexam/wp-content/uploads/2023/06/Cursor1.svg), auto;
+    
+    }
+
+a:hover {
+
+        cursor: url(http://ndesigns.dk/finalexam/wp-content/uploads/2023/06/Cursor1.svg), auto;
+        
+        }
+
+body a {
+            cursor: url(http://ndesigns.dk/finalexam/wp-content/uploads/2023/06/Cursor1.svg), auto;
+            }
