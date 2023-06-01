@@ -31,4 +31,40 @@ Body {
     font-style: normal;
 }
 
-/*this is a comment */
+.tinvwl_add_to_wishlist_button.tinvwl-icon-heart.tinvwl-position-above_thumb.tinvwl-loop
+ {
+    color: rgb(102, 34, 27)!important;
+}
+.product .woocommerce-product-gallery .yith-wcwl-add-to-wishlist {
+    position: absolute;
+    width: auto!important;
+    left: 20px;
+    top: 20px;
+}
+
+.product .woocommerce-product-gallery .yith-wcwl-add-to-wishlist a.button {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #555;
+    margin: 0;
+    line-height: 1;
+    min-height: 0;
+    font-size: 0;
+}
+
+.product .woocommerce-product-gallery .yith-wcwl-add-to-wishlist a.button:hover {
+    box-shadow: none;
+    color: #434343;
+}
+
+.product .woocommerce-product-gallery .yith-wcwl-add-to-wishlist a.button i {
+    margin: 0;
+    font-size: 26px;
+}
+
+.product .woocommerce-product-gallery .yith-wcwl-add-to-wishlist a.button span,
+.product .woocommerce-product-gallery .yith-wcwl-add-to-wishlist .separator,
+.product .woocommerce-product-gallery .yith-wcwl-add-to-wishlist .view-wishlist {
+    display: none;
+}
